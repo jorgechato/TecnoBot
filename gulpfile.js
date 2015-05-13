@@ -3,7 +3,7 @@ var gulp = require('gulp'),
 
 gulp.task('start',function () {
     nodemon({
-        script: 'bot.js',
+        script: './lib/bot.js',
         env: {
             'NODE_ENV': 'development'
         }
