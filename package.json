@@ -1,0 +1,36 @@
+{
+  "name": "TecnoBot",
+  "version": "1.0.0",
+  "description": "twitter bot to new technology, SEO, CEO and CTO",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orggue/TecnoBot.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "node",
+    "SEO",
+    "CEO",
+    "CTO",
+    "orggue"
+  ],
+  "author": "orggue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orggue/TecnoBot/issues"
+  },
+  "homepage": "https://github.com/orggue/TecnoBot",
+  "dependencies": {
+    "express.io": "^1.1.13",
+    "twit": "^1.1.20"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-nodemon": "^2.0.3"
+  }
+}
