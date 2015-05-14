@@ -11,8 +11,9 @@ TecnoBot
 ├── Procfile            #Ready to heroku
 └── README.md
 ```
-#########Require
+######Require
 + nodejs
+
 ###Install
 ```zsh
 $ git clone https://github.com/orggue/TecnoBot.git
