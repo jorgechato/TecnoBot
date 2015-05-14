@@ -11,7 +11,8 @@ TecnoBot
 ├── Procfile            #Ready to heroku
 └── README.md
 ```
-
+#########Require
++ nodejs
 ###Install
 ```zsh
 $ git clone https://github.com/orggue/TecnoBot.git
@@ -30,11 +31,21 @@ Create a file in ./TecnoBot directory config.json
     }
 }
 ```
+If you want to export the logs into https://papertrailapp.com add logConfig.json file into ./TecnoBot directory
+```json
+{
+    "env":{
+        "url_log": "...",
+        "port_log": "..."
+    }
+}
+```
 ###Run
 ```zsh
 $ gulp
 ```
 ###Deploy
+Remember add the variables into heroku
 ```zsh
 $ git push heroku
 ```
