@@ -2,8 +2,8 @@
 twitter bot to new technology, SEO, CEO and CTO
 ```zsh
 TecnoBot
-├── config.json         #config file
-├── gulpfile.js         #run bot in production
+├── config.json         #Config file
+├── gulpfile.js         #Run bot in development
 ├── lib
 │   └── bot.js          #TecnoBot
 ├── LICENSE
